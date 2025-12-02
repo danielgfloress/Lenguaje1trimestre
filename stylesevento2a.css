@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://lossietereinos.com/wp-content/uploads/2019/05/TYRION-juego-de-tronos-8x05.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff8e1;
+    margin: 0;
+    padding: 0;
+}
+
+.header__inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    gap: 20px;
+    height: 75px;
+}
+
+.foto {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.header__inicio--titulo {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+.historia {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: rgba(20, 0, 0, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.historia__titulo {
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+.historia__texto {
+    line-height: 1.5;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.galeria__item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(50, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.galeria__item--invertido {
+    flex-direction: row-reverse;
+}
+
+.galeria__img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.galeria__info {
+    width: 55%;
+}
+
+.galeria__subtitulo {
+    margin-top: 0;
+    color: #ff5500;
+}
+
+.galeria__descripcion {
+    line-height: 1.5;
+}
+
+.acciones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.acciones__btn {
+    padding: 12px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.acciones__btn--ataque {
+    background-color: #ff5500;
+}
+
+.acciones__btn--retirada {
+    background-color: #44434a;
+}
+
+.acciones__btn:hover {
+    transform: scale(1.1);
+}
+
+.acciones__texto {
+    font-weight: bold;
+    color: #ffcc00;
+}
