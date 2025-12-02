@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/628/225/desktop-wallpaper-game-of-thrones-art-game-of-thrones-pc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: brightness(35%);
+    font-family: 'Georgia', serif;
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+.header__inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    gap: 20px;
+    height: 75px;
+}
+
+.foto {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.header__inicio--titulo {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+.combate-columnas {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 0 40px;
+}
+
+.combatiente {
+    width: 40%;
+    text-align: center;
+}
+
+.combatiente__nombre {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.combatiente__barra {
+    width: 100%;
+    height: 22px;
+    background: rgba(80, 0, 0, 0.5);
+    border: 2px solid rgb(197, 164, 109);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.combatiente__relleno {
+    height: 100%;
+    background: linear-gradient(90deg, rgb(180, 0, 0), rgb(255, 42, 42));
+}
+
+.combatiente__relleno--jon {
+    width: 45%;
+}
+
+.combatiente__relleno--jaime {
+    width: 25%;
+}
+
+.combatiente__img {
+    width: 100%;
+    height: 450px;
+    border-radius: 12px;
+    border: 2px solid rgb(197, 164, 109);
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.narracion {
+    width: 60%;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border: 2px solid rgb(197, 164, 109);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.botones-centro {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.btn {
+    padding: 16px 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 3px solid rgb(197, 164, 109);
+    transition: 0.3s;
+}
+
+.btn--atacar {
+    background: rgb(122, 31, 31);
+}
+
+.btn--atacar:hover {
+    background: rgb(143, 32, 32);
+    transform: scale(1.1);
+}
+
+.btn--defender {
+    background: rgb(50, 70, 70);
+}
+
+.btn--defender:hover {
+    background: rgb(65, 90, 90);
+    transform: scale(1.1);
+}
