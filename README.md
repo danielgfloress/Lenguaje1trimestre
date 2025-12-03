@@ -4,9 +4,6 @@ Este proyecto consiste en una **historia interactiva programada en
 HTML**, donde el usuario avanza a través de diferentes páginas según las
 elecciones que va tomando.
 
-No incluye minijuegos; se basa únicamente en **decisiones** que llevan a
-distintos caminos y finales.
-
 ## 🌟 Contenido del proyecto
 
   -----------------------------------------------------------------------
@@ -24,8 +21,8 @@ distintos caminos y finales.
 
 ## 🛠 Tecnologías utilizadas
 
--   **HTML5**
--   **CSS3** (si se utiliza)
+-   **HTML**
+-   **CSS**
 -   **Estructura de navegación entre páginas**
 -   **Navegación en navegador web**
 
