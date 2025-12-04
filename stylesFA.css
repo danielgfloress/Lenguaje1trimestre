@@ -12,27 +12,6 @@ body {
     height: 100vh;
 }
 
-.header__inicio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    color: white;
-    padding: 20px;
-    gap: 20px;
-    height: 75px;
-}
-
-.foto {
-    width: 100px;
-    border-radius: 10px;
-}
-
-.header__inicio--titulo {
-    letter-spacing: 3px;
-    font-size: 50px;
-}
-
 .contenido__pagina--titulo {
     color: white;
     display: flex;
