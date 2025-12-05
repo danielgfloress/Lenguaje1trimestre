@@ -10,48 +10,7 @@ body {
 .inicio__fondo {
     height: 100vh;
 }
-<<<<<<< HEAD
 
-.distribuir__espacio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    padding: 10px;
-}
-
-.texto__introducción {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.829);
-    color: rgb(255, 255, 255);
-    width: 285px;
-    height: 275px;
-    padding: 50px;
-    border-radius: 10px;
-}
-
-.mapa {
-    width: 39vh;
-    margin-top: 10px;
-    margin-left: 40px;
-
-}
-
-.distribuir__espacio--textos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 10px 10px 10px;
-    font-size: 20px;
-
-}
-
-=======
->>>>>>> arreglarcss
 .boton__comenzar {
     display: flex;
     justify-content: center;
