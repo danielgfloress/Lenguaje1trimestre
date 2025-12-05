@@ -10,6 +10,7 @@ body {
 .inicio__fondo {
     height: 100vh;
 }
+<<<<<<< HEAD
 
 .distribuir__espacio {
     display: flex;
@@ -49,6 +50,8 @@ body {
 
 }
 
+=======
+>>>>>>> arreglarcss
 .boton__comenzar {
     display: flex;
     justify-content: center;
@@ -75,8 +78,4 @@ body {
 .boton__comenzar--texto:hover {
     background-color: rgb(120, 16, 16);
     transform: translateY(-5px);
-}
-
-.texto__introducción--animo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

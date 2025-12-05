@@ -18,3 +18,550 @@
     font-size: 2.5rem;
     letter-spacing: 3px;
 }
+
+.titulo__frase {
+    font-style: italic;
+    font-size: 22px;
+    color: #e8e2d8;
+    text-shadow: 1px 1px 3px #000;
+    margin-top: 20px;
+}
+
+.historia {
+    width: 1100px;
+    max-width: 95%;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.historia__imagen {
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+    height: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.historia__texto {
+    font-size: 18px;
+    line-height: 28px;
+    color: #f5f5f5;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px #000;
+    text-align: left;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.contenedor-tarjetas {
+    max-width: 900px;
+    width: 100%;
+}
+
+.tarjetaFinal {
+    background-color: rgba(44, 44, 44, 0.9);
+    border: 2px solid #ff4c4c;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px #ff4c4c66;
+}
+
+.tarjetaFinal__img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.tarjetaFinal__h2 {
+    font-size: 30px;
+    color: #ff6666;
+    margin-bottom: 10px;
+}
+
+.tarjetaFinal__p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.tarjetaFinal__h3 {
+    color: #ff0000;
+    font-size: 25px;
+    margin-top: 15px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.peligros__nombre {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.peligros__img {
+    width: 100%;
+    border-radius: 8px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.peligros__seccion {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.peligros__titulo {
+    margin: 0 0 20px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 16px;
+}
+
+.peligros__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    justify-items: center;
+    align-items: start;
+}
+
+.cap1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+
+.cap1__dragon {
+    position: absolute;
+    left: 80%;
+    overflow: hidden;
+}
+
+.cap1__dragon img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.cap1__box {
+    background-color: rgba(64, 64, 64, 0.499);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    height: 200px;
+    border: 3px solid rgb(62, 62, 62);
+}
+
+.cap1__box-titulo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.666);
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 70px;
+    font-size: 25px;
+}
+
+.cap1__box-texto{
+    width: 550px;
+    font-size: 30px;
+    color: rgb(196, 196, 196);
+    text-align: center;
+}
+
+.cap1__opciones-1 {
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    align-items: center;
+    width: 85%;
+    margin-top: 100px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+}
+
+.final__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 580px;
+    background-color: rgba(66, 66, 66, 0.755);
+    margin: 20px;
+    border-radius: 10px;
+    border: solid, black;
+    font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+
+.final__box-texto {
+    color: rgb(167, 167, 167);
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.final__box-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: solid, rgba(57, 57, 57, 0.878);
+    background-image: url("https://luciasecasa.com/wp-content/uploads/2022/02/bodas-juego-de-tronos-7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 600px;
+}
+
+.final__box-imagen p {
+    background-color: rgba(48, 48, 48, 0.822);
+    color: rgb(167, 167, 167);
+    border-radius: 10px;
+    border: solid, black;
+    padding: 5px;
+    width: 250px;
+    font-size: 20px;
+}
+
+.final__box-boton {
+    position: relative;
+    left: 225px;
+    margin-top: 20px;
+    max-width: 300px;
+    padding: 20px;
+    font-size: 1.1rem;
+    background: rgb(108, 101, 39);
+    border: 3px solid rgb(105, 85, 12);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+}
+
+.final__box-boton a {
+    text-decoration: none;
+    color: rgb(198, 198, 198);
+}
+
+.final__box-boton:hover {
+    background-color: rgb(126, 111, 0);
+    transform: translateY(-10px);
+}
+.cuadro {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    background: rgba(25, 28, 33, 0.85);
+    border: 2px solid #5a5f66;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.cuadro__titulo {
+    color: #b89a67;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.cuadro__texto {
+    font-size: 22px;
+    margin: 0;
+    color: #f0f0f0;
+}
+.peligros {
+    width: 85%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+.peligro__img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #5a5f66;
+}
+
+.peligro__titulo {
+    margin: 15px 0;
+    font-size: 19px;
+    color: #e0e0e0;
+    text-align: center;
+}
+.galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.galeria__item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(50, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.galeria__item--invertido {
+    flex-direction: row-reverse;
+}
+
+.galeria__img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.galeria__info {
+    width: 55%;
+}
+
+.galeria__subtitulo {
+    margin-top: 0;
+    color: #ff5500;
+}
+
+.galeria__descripcion {
+    line-height: 1.5;
+}
+.contenido__pagina--titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.contenido__pagina--imagen {
+    width: 400px;
+    height: 200px;
+}
+
+.contenido__pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.opciones__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 150px);
+    grid-column-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.opciones__grid--color {
+    color: rgb(117, 0, 0);
+    font-size: 30px;
+}
+
+.texto {
+    text-decoration: none;
+    color: orange;
+}
+.victoria-container {
+    text-align: center;
+    background: rgba(20, 20, 25, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    max-width: 800px;
+}
+
+.victoria-header h1 {
+    font-size: 50px;
+    color: #ffd700;
+    text-shadow: 2px 2px 8px #000;
+    margin-bottom: 10px;
+}
+
+.victoria-header p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #e2e2e2;
+}
+.trono-img img {
+    width: 350px;
+    border-radius: 15px;
+    border: 3px solid #ffd700;
+    box-shadow: 0 0 20px #ffd700;
+    margin-bottom: 30px;
+}
+.mensaje-victoria h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.mensaje-victoria p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.box__principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box__principal--imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid orangered;
+    box-shadow: 0 0 20px orangered;
+}
+.box__principal--final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 100px;
+    margin: 10px;
+
+}
+.box__principal--texto2 {
+    text-shadow: 1px 1px 2px black;
+}
+.img1 {
+    grid-area: 1/1/2/2;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.img2 {
+    grid-area: 1/2/2/3;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.img3 {
+    grid-area: 2/1/3/2;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.img4 {
+    grid-area: 2/2/3/3;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.reinicio__texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: orange;
+    color: red;
+    box-shadow: 0 0 20px orangered;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 70px;
+    width: 300px;
+    border: solid 3px;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    text-shadow: 1px 1px 2px black;
+}
+
+.reinicio__texto:hover {
+    transform: translateY(-5px);
+}
+.distribuir__espacio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+.texto__introducción {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(255, 255, 255);
+    width: 285px;
+    height: 175px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.mapa {
+    width: 39vh;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+.distribuir__espacio--textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+    font-size: 20px;
+
+}
+.texto__introducción{
+    height: 300px;
+}
+.texto__introducción--animo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.acciones__eleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.893);
+    height: 70px;
+    width: 300px;
+    font-size: 25px;
+}
