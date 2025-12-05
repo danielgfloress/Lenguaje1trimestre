@@ -25,47 +25,6 @@ body {
 .historia__texto {
     line-height: 1.5;
 }
-
-.galeria {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 900px;
-    margin: 20px auto;
-}
-
-.galeria__item {
-    display: flex;
-    align-items: center;
-    background-color: rgba(50, 0, 0, 0.8);
-    padding: 15px;
-    border-radius: 10px;
-    gap: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-}
-
-.galeria__item--invertido {
-    flex-direction: row-reverse;
-}
-
-.galeria__img {
-    width: 45%;
-    border-radius: 10px;
-}
-
-.galeria__info {
-    width: 55%;
-}
-
-.galeria__subtitulo {
-    margin-top: 0;
-    color: #ff5500;
-}
-
-.galeria__descripcion {
-    line-height: 1.5;
-}
-
 .acciones {
     display: flex;
     justify-content: center;
